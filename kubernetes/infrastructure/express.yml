@@ -14,6 +14,7 @@ spec:
       containers:
         - name: express-app
           image: express-app
+          imagePullPolicy: Never
           resources:
             limits:
               memory: "128Mi"
